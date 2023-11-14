@@ -151,3 +151,23 @@ main section{
 #vermelho{
     background: #ae0617;
 }
+
+.main-img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.main-img img{
+    width: 500px;
+    transform: rotate(-7deg);
+}
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 106%;
+    height: 100%;
+    background: #445c42;
+    clip-path: circle(800px at right 100px);
+}
