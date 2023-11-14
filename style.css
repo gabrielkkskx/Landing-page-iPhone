@@ -93,4 +93,61 @@ main section{
     border-radius: 15px;
     color: var(--branco);
     font-size: 1.5rem;
+    transition: all .5s;
+}
+
+.botao:hover{
+    opacity: .85;
+}
+
+.texto{
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px var(--cinza);
+    transition: all .5s;
+}
+
+.container span:hover{
+    opacity: .80;
+}
+
+/* Cores */
+
+#verde{
+    background: #384937;
+}
+
+#rosa{
+    background: #f8ddd6;
+}
+
+#azul{
+    background: #225f7e;
+}
+
+#preto{
+    background: #192028;
+}
+
+#branco{
+    background: #f7f2ee;
+}
+
+#vermelho{
+    background: #ae0617;
 }
