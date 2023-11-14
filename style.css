@@ -169,5 +169,5 @@ main section{
     width: 106%;
     height: 100%;
     background: #445c42;
-    clip-path: circle(800px at right 100px);
+    clip-path: circle(800px at right 1000px);
 }
