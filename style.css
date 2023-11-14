@@ -126,6 +126,10 @@ main section{
     opacity: .80;
 }
 
+.espacamento{
+    padding-bottom: 0;
+}
+
 /* Cores */
 
 #verde{
