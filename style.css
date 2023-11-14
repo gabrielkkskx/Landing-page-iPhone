@@ -3,6 +3,8 @@
     --header: #1d1d1f;
     --cinza: #888;
     --branco: #fff;
+    --cinza-secundario: #999;
+    --botao: #0071e3;
 }
 
 *{
@@ -73,4 +75,22 @@ main section{
 .main-texto h3{
     font-size: 3.5rem;
     margin-bottom: 2rem;
+}
+
+.main-texto p{
+    margin-bottom: 1.5rem;
+}
+
+.main-texto h6{
+    color: var(--cinza-secundario);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.botao{
+    padding: 10px 25px;
+    background: var(--botao);
+    border-radius: 15px;
+    color: var(--branco);
+    font-size: 1.5rem;
 }
