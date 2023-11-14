@@ -50,3 +50,27 @@ header{
     color: var(--branco);
     border-bottom: 1px solid var(--branco);
 }
+
+.check{
+    color: var(--branco);
+    border-bottom: 1px solid var(--branco);
+}
+
+/* main */
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+.main-texto img{
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+
+.main-texto h3{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
